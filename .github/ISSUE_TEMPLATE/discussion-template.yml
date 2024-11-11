@@ -40,6 +40,15 @@ body:
       description: "논의 중 다뤄보고 싶은 주요 포인트나 질문이 있으면 간단히 작성해주세요."
       placeholder: "예: 모델의 학습 속도 개선 방안, 데이터 전처리 방식 개선 등"
 
+  - type: textarea
+    id: related-issues
+    validations:
+      required: false
+    attributes:
+      label: "🔗 관련 이슈"
+      description: "이 논의와 관련된 이전 이슈가 있다면 이슈 번호를 간단히 언급해주세요."
+      placeholder: "예: 관련 이슈 - #13, #17"
+
   - type: dropdown
     id: priority-level
     attributes:
@@ -49,12 +58,3 @@ body:
         - Low
         - Medium
         - High
-
-  - type: textarea
-    id: related-issues
-    validations:
-      required: false
-    attributes:
-      label: "🔗 관련 이슈"
-      description: "이 논의와 관련된 이전 이슈가 있다면 이슈 번호를 간단히 언급해주세요."
-      placeholder: "예: 관련 이슈 - #13, #17"
