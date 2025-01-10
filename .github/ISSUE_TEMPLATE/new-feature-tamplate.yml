@@ -10,16 +10,7 @@ body:
       options:
         - label: "이전에 제안된 [기능 요청](https://github.com/eyeol/template-test/issues?q=label%3Aenhancement+) 중 중복되는 것이 없습니다."
           required: true
-
-  - type: input
-    id: feature-title
-    validations:
-      required: true
-    attributes:
-      label: "💡 기능 제목"
-      description: "추가하고 싶은 기능의 간단한 제목을 입력해주세요."
-      placeholder: "예: 사용자 로그인 기능"
-
+          
   - type: textarea
     id: feature-description
     validations:
