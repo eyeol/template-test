@@ -11,15 +11,6 @@ body:
         - label: "이전에 공유된 [실험 결과](https://github.com/eyeol/template-test/issues?q=label%3Aexperiment+) 중 중복되는 것이 없습니다."
           required: true
 
-  - type: input
-    id: experiment-title
-    validations:
-      required: true
-    attributes:
-      label: "🔬 실험 제목"
-      description: "실험의 간단한 제목을 입력해주세요."
-      placeholder: "예: 데이터 증강 효과 검증 실험"
-
   - type: textarea
     id: experiment-summary
     validations:
